@@ -212,7 +212,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🎓 Nexium AI Web Development Intern, Summer 2025
 - 📧 Email: iamabdulrehman.technophile@gmail.com
 - 🐙 GitHub: [@abdulrehman-dev-ai](https://github.com/abdulrehman-dev-ai)
-- 💼 LinkedIn: [Connect with me](https://linkedin.com/in/abdul-rehman-dev)
+- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/abdulrehmansarwar)
 
 ## 🙏 Acknowledgments
 
