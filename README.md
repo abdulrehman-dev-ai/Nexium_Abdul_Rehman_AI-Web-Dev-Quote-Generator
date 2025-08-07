@@ -8,25 +8,29 @@
 
 ## ✨ Overview
 
-This is **Assignment 1** for the Nexium AI Web Development Internship. It is a simple **Quote Generator** built with:
+This is **Assignment 1** for the Nexium AI Web Development Internship. It is an **AI-Powered Quote Generator** built with:
 
 - **Next.js 15 (App Router)**
 - **TypeScript**
 - **Tailwind CSS**
 - **ShadCN UI**
 - **Framer Motion** for animations
+- **Google Gemini AI** for dynamic quote generation
 
-Users can select a topic (e.g., *inspiration*, *life*, *success*) and generate relevant motivational quotes with smooth, animated cards.
+Users can enter any custom topic or select from predefined categories to generate unique, AI-powered motivational quotes with smooth, animated cards.
 
 ---
 
 ## 💻 Features
 
-✅ Select a topic and get multiple quotes  
-✅ Animated quote cards (fade/slide in)  
-✅ Fully responsive layout with TailwindCSS  
-✅ Polished UI with ShadCN components  
-✅ Clean, modular Next.js structure  
+✅ **AI-Powered Quote Generation** - Enter any topic and get unique quotes  
+✅ **Custom Topic Input** - Generate quotes about anything you want  
+✅ **Predefined Categories** - Choose from 15+ categories like inspiration, success, etc.  
+✅ **Animated Quote Cards** - Smooth fade/slide animations  
+✅ **Fully Responsive Layout** - Works perfectly on all devices  
+✅ **Modern UI** - Polished interface with ShadCN components  
+✅ **Loading States** - Visual feedback during AI generation  
+✅ **Error Handling** - Graceful error messages for better UX  
 
 ---
 
@@ -39,13 +43,14 @@ Users can select a topic (e.g., *inspiration*, *life*, *success*) and generate r
 ## 🧭 How to Use
 
 1️⃣ Open the app in your browser.  
-2️⃣ Select a topic from dropdown field:  
-- `inspiration`
-- `life`
-- `success`  
+2️⃣ **Option A**: Enter any custom topic in the text field (e.g., "entrepreneurship", "nature", "technology")  
+3️⃣ **Option B**: Select from predefined categories like:  
+- `inspiration`, `life`, `success`, `motivation`
+- `wisdom`, `humor`, `love`, `mindfulness`
+- `creativity`, `leadership`, `perseverance`, etc.
 
-3️⃣ Click **Generate Quotes**.  
-4️⃣ Enjoy the animated, styled results!
+4️⃣ Click **Generate AI Quotes**.  
+5️⃣ Watch as AI creates unique, personalized quotes with smooth animations!
 
 ---
 
@@ -59,6 +64,28 @@ Users can select a topic (e.g., *inspiration*, *life*, *success*) and generate r
 
 ---
 
+## 🔑 Setup Instructions
+
+### 1. Get Your Gemini API Key
+
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Sign in with your Google account
+3. Click "Create API Key"
+4. Copy your API key
+
+### 2. Configure Environment Variables
+
+1. Rename `.env.local` to `.env.local` (if not already done)
+2. Replace `your_gemini_api_key_here` with your actual API key:
+
+```bash
+GEMINI_API_KEY=your_actual_api_key_here
+```
+
+⚠️ **Important**: Never commit your API key to version control!
+
+---
+
 ## 🧪 Run Locally
 
 Clone the repo and install dependencies:
@@ -67,6 +94,11 @@ Clone the repo and install dependencies:
 git clone https://github.com/abdulrehman-dev-ai/Nexium_Abdul_Rehman_AI-Web-Dev
 cd Nexium_Abdul_Rehman_AI-Web-Dev
 npm install
+```
+
+Make sure to set up your Gemini API key in `.env.local` (see Setup Instructions above), then:
+
+```bash
 npm run dev
 ```
 
@@ -107,11 +139,12 @@ src/
 
 ## ⚡ Tech Stack
 
-- Next.js 15
-- TypeScript
-- Tailwind CSS
-- ShadCN UI
-- Framer Motion
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **ShadCN UI** - Modern component library
+- **Framer Motion** - Smooth animations
+- **Google Generative AI** - AI-powered quote generation
 
 ---
 
